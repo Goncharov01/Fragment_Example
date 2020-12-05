@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="120px"
+    android:paddingBottom="500px"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstFragment"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="First_Fragment"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/secondFragment"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="70dp"
+        android:text="Second_Fragment"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+    </FrameLayout>
+
+</LinearLayout>
